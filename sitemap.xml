@@ -52,6 +52,21 @@
     </url>
     <url>
         <loc>
+            http://localhost:8000/products/chocolate-bunny-gift-box/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/easter-bunny-plush-toy/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/spring-floral-wreath/
+        </loc>
+    </url>
+    <url>
+        <loc>
             http://localhost:8000/category/uncategorized/
         </loc>
     </url>
