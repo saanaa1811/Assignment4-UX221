@@ -27,11 +27,6 @@
     </url>
     <url>
         <loc>
-            http://localhost:8000/
-        </loc>
-    </url>
-    <url>
-        <loc>
             http://localhost:8000/about/
         </loc>
     </url>
@@ -43,6 +38,11 @@
     <url>
         <loc>
             http://localhost:8000/products/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/bringing-easter-magic-to-life/
         </loc>
     </url>
     <url>
@@ -63,6 +63,11 @@
     <url>
         <loc>
             http://localhost:8000/products/spring-floral-wreath/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/personalized-easter-baskets/
         </loc>
     </url>
     <url>
