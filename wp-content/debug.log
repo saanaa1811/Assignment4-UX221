@@ -1,2 +1,18 @@
 [20-Apr-2025 22:20:14 UTC] PHP Warning:  Undefined array key "host" in /workspaces/Assignment4-UX221/.wordpress/wp-includes/pluggable.php on line 1640
 [20-Apr-2025 23:12:56 UTC] PHP Warning:  Undefined variable $parent_theme_name in /workspaces/Assignment4-UX221/.wordpress/wp-content/mu-plugins/one-click-child-theme/templates/create_child_form.php on line 18
+[21-Apr-2025 01:16:05 UTC] PHP Fatal error:  Out of memory (allocated 37748736) (tried to allocate 2097152 bytes) in /workspaces/Assignment4-UX221/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/blocks/context-blocks.php on line 183
+[21-Apr-2025 01:16:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ic_products_count() in /workspaces/Assignment4-UX221/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php:117
+Stack trace:
+#0 /workspaces/Assignment4-UX221/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#1 /workspaces/Assignment4-UX221/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#2 [internal function]: IC_EPC_Tracking->fatal()
+#3 {main}
+  thrown in /workspaces/Assignment4-UX221/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php on line 117
+[21-Apr-2025 01:17:15 UTC] PHP Fatal error:  Out of memory (allocated 35651584) (tried to allocate 2097152 bytes) in /workspaces/Assignment4-UX221/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/product-settings.php on line 115
+[21-Apr-2025 01:17:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ic_products_count() in /workspaces/Assignment4-UX221/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php:117
+Stack trace:
+#0 /workspaces/Assignment4-UX221/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(551): IC_EPC_Tracking->setup_data()
+#1 /workspaces/Assignment4-UX221/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php(481): IC_EPC_Tracking->send_paused_checkin(Array, true)
+#2 [internal function]: IC_EPC_Tracking->fatal()
+#3 {main}
+  thrown in /workspaces/Assignment4-UX221/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php on line 117
