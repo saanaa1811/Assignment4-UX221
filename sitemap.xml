@@ -42,7 +42,12 @@
     </url>
     <url>
         <loc>
-            http://localhost:8000/bringing-easter-magic-to-life/
+            http://localhost:8000/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/blog/
         </loc>
     </url>
     <url>
